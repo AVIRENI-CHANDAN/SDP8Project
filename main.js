@@ -13,8 +13,7 @@ var usr3 = {
 function validate() {
     var username = document.getElementById("username");
     var password = document.getElementById("password");
-    if (username.value == "" || password.value == "")
-    {
+    if (username.value == "" || password.value == "") {
         alert("Please fill the username and password");
         return;
     }
@@ -26,14 +25,14 @@ function validate() {
                 // window.location.assign("https://www.google.co.in");//Working
                 // window.location = "https://www.google.co.in";//Working
                 // self.location = "http://net-informations.com";//Working
-                document.getElementById("myForm").action = "FarmerHomePage.html";
+                document.getElementById("myForm").action = "./com.farmer/FarmerHomePage.html";
                 return;
             }
         }
         for (const [ key, value ] of Object.entries(usr2)) {
             // alert(key);
             // alert(value);
-            if (key == username.value && value==password.value){
+            if (key == username.value && value == password.value) {
                 // alert("Cat2 user");
                 // window.location.replace('https://www.google.com');//Working
                 // window.location.href = "https://www.google.com/"; //Working
@@ -45,7 +44,7 @@ function validate() {
             }
         }
         for (const [ key, value ] of Object.entries(usr3)) {
-            if (key == username.value && value==password.value){
+            if (key == username.value && value == password.value) {
                 // window.location.replace('https://www.google.com');//Working
                 // window.location.href = "https://www.google.com/"; //Working
                 // window.location.assign("https://www.google.co.in");//Working

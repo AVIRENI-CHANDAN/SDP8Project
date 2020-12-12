@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0px 0px 0px 0px;
+}
+html {
+  overflow: hidden;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: transparent;
+  color: black;
+}
+.navWrapper {
+  margin-top: 30px;
+  display: block;
+  background-color: green;
+  object-position: center;
+  height: 50px;
+  border: 2px solid red;
+}
+.navWrapper > a {
+  margin-top: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  width: 23%;
+}
+@font-face {
+  font-family: myfontstyle1;
+  src: url("BeautyMountainsPersonalUse-od7z.ttf");
+}
+.rentalAgency > .logoAgency {
+  border: 2px solid red;
+  height: 3cm;
+  font-size: 2cm;
+  text-align: center;
+  padding-top: 20px;
+  font-family: myfontstyle1;
+  overflow: auto;
+  /* max-width: 100%; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sections {
+  display: flex;
+}
+.section1 {
+  border: 1px solid green;
+  width: 50%;
+}
+.section2 {
+  border: 1px solid green;
+  width: 50%;
+}
+.imageBox {
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.detailsBox {
+  margin-bottom: 20px;
+}
+table {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  position: relative;
+  /* border: 2px solid red; */
+}
+.vCard > table {
+  border: 2px solid rgba(0, 0, 255, 0.6);
+}
+td {
+  padding-top: 10px;
+  padding-left: 10px;
+}
