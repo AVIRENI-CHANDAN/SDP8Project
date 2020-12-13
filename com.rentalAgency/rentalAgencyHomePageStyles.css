@@ -19,7 +19,7 @@ html {
   background-color: green;
   object-position: center;
   height: 50px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .navWrapper > a {
   margin-top: 15px;
@@ -35,7 +35,7 @@ html {
   src: url("BeautyMountainsPersonalUse-od7z.ttf");
 }
 .rentalAgency > .logoAgency {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 3cm;
   font-size: 2cm;
   text-align: center;
@@ -51,11 +51,11 @@ html {
   display: flex;
 }
 .section1 {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 50%;
 }
 .section2 {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 50%;
 }
 .imageBox {
@@ -66,6 +66,7 @@ html {
   /* border: 1px solid red; */
 }
 .detailsBox {
+  margin-top: 75px;
   margin-bottom: 20px;
 }
 table {
@@ -76,9 +77,14 @@ table {
   /* border: 2px solid red; */
 }
 .vCard > table {
-  border: 2px solid rgba(0, 0, 255, 0.6);
+  /* border: 2px solid rgba(0, 0, 255, 0.6); */
 }
 td {
   padding-top: 10px;
   padding-left: 10px;
+}
+.enrolledDetails {
+  margin-top: 75px;
+  font-size: large;
+  transform: translate(-50%, -50%);
 }
