@@ -18,6 +18,9 @@ a {
   color: cornsilk;
   text-shadow: 1px 2px black;
 }
+.navBar > a:hover {
+  font-size: large;
+}
 p {
   font-size: 3cm;
   padding-top: 50%;

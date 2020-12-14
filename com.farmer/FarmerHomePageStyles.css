@@ -1,77 +1,3 @@
-/* * {
-  margin: 0px 0px 0px 0px;
-  padding: 0;
-}
-body {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  overflow: hidden;
-}
-.slidershow {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-.navigation {
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-}
-.bar {
-  width: 50px;
-  height: 10px;
-  border: 2px solid #ffd800;
-  margin: 6px;
-  cursor: pointer;
-  transition: 0.4s;
-}
-input[name="r"] {
-  position: absolute;
-  visibility: hidden;
-}
-.slides {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  border: 3px solid green;
-}
-.slide {
-  height: 100vh;
-  width: 100vw;
-  border: 2px solid blue;
-}
-.slide p {
-  width: 100%;
-  height: 100%;
-}
-p {
-  font-size: 50px;
-  transform: translateY(50%);
-  height: fit-content;
-  text-align: center;
-  width: 100%;
-  border: 1px solid red;
-}
-#r1:checked ~ .s1 {
-  margin-left: 0;
-}
-#r2:checked ~ .s1 {
-  margin-left: -20%;
-}
-#r3:checked ~ .s1 {
-  margin-left: -40%;
-}
-#r4:checked ~ .s1 {
-  margin-left: -60%;
-}
-#r5:checked ~ .s1 {
-  margin-left: -80%;
-} */
-
 * {
   margin: 0;
   padding: 0;
@@ -93,6 +19,9 @@ a {
   margin-top: 15px;
   color: cornsilk;
   text-shadow: 1px 2px black;
+}
+.navBar > a:hover {
+  font-size: large;
 }
 .vCard {
   align-content: center;

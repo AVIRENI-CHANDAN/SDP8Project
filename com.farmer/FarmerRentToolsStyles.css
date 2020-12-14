@@ -1,14 +1,18 @@
 * {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+}
+#projLogo:hover {
+  opacity: 0.1;
 }
 .navBar {
   display: flex;
   background-color: green;
   height: 50px;
+  position: fixed;
+  width: 100%;
 }
-a {
+.navBar > a {
   width: 25%;
   height: auto;
   text-align: center;
@@ -18,11 +22,48 @@ a {
   color: cornsilk;
   text-shadow: 1px 2px black;
 }
-p {
-  font-size: 3cm;
-  padding-top: 50%;
+.navBar > a:hover {
+  font-size: large;
+}
+.sections,
+.machinewrapper {
+  display: flex;
+}
+.sections .headdingWrapper {
+  font-size: 15px;
+  font-weight: bold;
   text-align: center;
-  transform: translateY(-50%);
-  color: rgba(0, 0, 128, 0.6);
-  text-shadow: 2px 2px black;
+  text-transform: capitalize;
+  margin-top: 10px;
+  background: greenyellow;
+}
+.section1,
+.section2,
+.section3 {
+  width: 30%;
+  /* border: 1px solid red; */
+  margin-left: 3%;
+  margin-top: 55px;
+}
+button.machinewrapper {
+  text-decoration: none;
+  color: inherit;
+  background: none;
+  border: none;
+}
+.totalAmountContainer {
+  text-align: right;
+}
+.totalAmountValue {
+  border: 1px solid blue;
+  background-color: red;
+  color: yellow;
+  font-weight: bolder;
+}
+.totalAmountValue::after {
+  content: "  ₹";
+  margin-bottom: 15px;
+}
+.removed {
+  display: none;
 }
