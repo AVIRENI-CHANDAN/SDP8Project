@@ -8,6 +8,31 @@
   background-color: green;
   height: 50px;
 }
+.sellingWrapperTable {
+  display: flex;
+}
+.cropSellLabel {
+  /* margin-top: 50px; */
+  /* margin-left: 5%; */
+  font-size: larger;
+  width: 30%;
+}
+.cropSellLabel label {
+  margin-left: 20px;
+}
+.cropOptionsContainer {
+  margin-top: 50%;
+}
+.priceCalcTable {
+  width: 70%;
+}
+#priceCalcTable {
+  margin-top: 25%;
+  margin-left: 10px;
+}
+.priceCalcTable > button {
+  margin-left: 20px;
+}
 a {
   width: 25%;
   height: auto;
@@ -21,20 +46,10 @@ a {
 .navBar > a:hover {
   font-size: large;
 }
-.cropSellLabel {
-  margin-top: 15%;
-  margin-left: 5%;
-  font-size: larger;
-}
 .cropSellLabel > select {
   color: black;
   font-size: medium;
 }
 .cropSellLabel > select > option {
   font-size: medium;
-}
-.priceCalcTable {
-  margin-top: 15%;
-  transform: translateY(-50%);
-  margin-left: 10%;
 }
