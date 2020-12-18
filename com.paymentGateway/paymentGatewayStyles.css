@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow: hidden;
+}
+.paymentSectionContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  place-items: center;
+  border: 1px solid red;
+}
+.amountWrapper {
+  width: 200px;
+  border: 1px solid blue;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.paymentWrapper {
+  width: 50%;
+  display: grid;
+  border: 1px solid blue;
+}
+.paymentSectionContainer input {
+  height: 25px;
+  margin: 15px 5px 0px 5px;
+  border-radius: 5px;
+}
+.submitbtn {
+  background: rgba(0, 200, 0, 0.6);
+  width: 50%;
+  place-content: center;
+  margin-left: 25%;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 10px;
+  height: 30px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgba(255, 255, 255, 0.96);
+  text-shadow: 1px 1px 2px #000;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+.submitbtn:hover {
+  background-color: rgba(0, 255, 0, 0.8);
+}
+.submitbtn:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* 
+<input type="text" class="cardNumberWrapper" id="cardNumberWrapper" placeholder="Enter the card number"
+                    onfocus="(this.placeholder='123 4567 8901 2345')"
+                    onfocusout="(placeholder='Enter the card number')">
+                <br>
+                <input type="text" class="cardHolder" id="cardHolder" placeholder="Enter card holder name"
+                    onfocus="(this.placeholder='Surname HolderName')"
+                    onfocusout="(this.placeholder='Enter card holder name')">
+                <br>
+                <input type="text" class="cvvNumWrapper" id="cvvNumWrapper" placeholder="CVV number"
+                    onfocus="(this.placeholder='123')" onfocusout="(this.placeholder='CVV number')">
+                <br>
+                <input type="text" class="expiryDateWrapper" id="expiryDateWrapper" placeholder="12/24"
+                    onfocus="(this.type='month')" onfocusout="(this.type='text')">
+                <br>
+*/

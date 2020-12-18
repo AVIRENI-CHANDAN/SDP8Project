@@ -39,7 +39,7 @@ function validate() {
                 // window.location.assign("https://www.google.co.in");//Working
                 // window.location = "https://www.google.co.in";//Working
                 // self.location = "http://net-informations.com";//Working
-                document.getElementById("myForm").action = "Page2.html";
+                document.getElementById("myForm").action = "./com.rentalAgency/rentalAgencyHomePage.html";
                 return;
             }
         }

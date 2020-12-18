@@ -8,6 +8,8 @@
 // 
 // The below appends all the machinery in the machinery folder to the machineContainer.
 // But the no.of loops to be changed upon adding the machinery.
+
+
 var machinesRent = [
     22000, 25000, 26000, 25800, 45000, 56000, 45000, 23000, 52000, 63000,
     22000, 25000, 26000, 25800, 45000, 56000, 45000, 23000, 52000, 63000,
@@ -214,4 +216,9 @@ function calcTheRent(elechild) {
     totalAmountValuewrapper.innerHTML = (parseInt(totalAmountValuewrapper.innerHTML) + finalammount).toString();
     // console.log("Calculations elements are \n finalamount", typeof finalammount, "->", finalammount, "\n unitvalue", typeof unitvalue, "->", unitvalue, "\n userinput", typeof userinput, "->", userinput);
     // console.log(finalammount.toString());
+}
+function paymentFn(ele) {
+    console.log(ele.parentNode);
+    console.log("Node is", ele);
+    amountToBePaid(ele.elechild);
 }
